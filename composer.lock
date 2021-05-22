@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1ba204e9bd2a169fead5556bc3dc7aaa",
+    "packages": [
+        {
+            "name": "express-ru/sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ExpressRu/SDK.git",
+                "reference": "b7e56844ce27dbbac2227b2030a23074ac9d6fa6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ExpressRu/SDK/zipball/b7e56844ce27dbbac2227b2030a23074ac9d6fa6",
+                "reference": "b7e56844ce27dbbac2227b2030a23074ac9d6fa6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ExpressRuSDK\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Artem Dudov",
+                    "email": "artem.dudov@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/ExpressRu/SDK/issues",
+                "source": "https://github.com/ExpressRu/SDK/tree/master"
+            },
+            "time": "2018-12-12T06:52:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "express-ru/sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

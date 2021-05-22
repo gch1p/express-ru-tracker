@@ -1,0 +1,16 @@
+{
+  "name": "ch1p/express-ru-tracker",
+  "description": "",
+  "minimum-stability": "dev",
+  "license": "",
+  "authors": [
+    {
+      "name": "Evgeny Zinoviev",
+      "email": "me@ch1p.io"
+    }
+  ],
+  "require": {
+    "express-ru/sdk": "dev-master",
+    "ext-curl": "*"
+  }
+}
