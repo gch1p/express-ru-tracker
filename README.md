@@ -19,7 +19,9 @@
         --telegram-chat-id $CHAT_ID \
         --telegram-token $TOKEN
     ```
-
+   `$USER_LOGIN`, `$USER_SIGNATURE_KEY` и `$USER_AUTHORIZATION_KEY` нужно получить
+   в кабинете на express.ru.
+   
 ## License
 
 MIT
